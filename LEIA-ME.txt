@@ -1,0 +1,21 @@
+KG DESKTOP — VERSÃO 1.0
+
+ARQUIVOS
+- index.html: aplicativo completo em um arquivo.
+- manifest.webmanifest: informações de instalação como web app.
+- sw.js: cache dos arquivos para uso offline depois da primeira visita HTTPS.
+- icon.png: ícone da tela inicial.
+
+COMO USAR NO IPHONE 13
+1. Publique esta pasta em hospedagem HTTPS (GitHub Pages, Netlify etc.).
+2. Abra o link no Safari no iPhone.
+3. Toque em Compartilhar e escolha Adicionar à Tela de Início.
+4. Abra KG Desktop pelo ícone criado.
+5. Se o teclado/mouse já funcionam no iPhone, use-os na interface.
+
+ALTERNATIVA: abrir index.html em um navegador permite testar o app, mas a instalação PWA e o cache offline exigem site HTTPS.
+
+IMPORTANTE
+Este projeto não altera o iOS, não controla outros aplicativos nem cria saída HDMI.
+Para um monitor HDMI, iPhone 13 necessita de adaptador Lightning de vídeo compatível.
+As notas e os textos são salvos localmente pelo navegador; exporte conteúdos importantes.
